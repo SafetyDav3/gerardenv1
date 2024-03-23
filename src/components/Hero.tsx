@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -24,12 +24,7 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <Image
-                width={64}
-                height={64}
-                src='glogo.svg'
-                alt=""
-              />
+              <Image width={64} height={64} src="glogo.svg" alt="" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -194,7 +189,7 @@ export default function Example() {
                       <Image
                         width={500}
                         height={500}
-                        src='/tab1.jpg'
+                        src="/tab1.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -206,7 +201,8 @@ export default function Example() {
                       <Image
                         width={500}
                         height={500}
-                        src='/tab2.jpg'                        alt=""
+                        src="/tab2.jpg"
+                        alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -215,7 +211,8 @@ export default function Example() {
                       <Image
                         width={500}
                         height={500}
-                        src='/tab3.jpg'                        alt=""
+                        src="/tab3.jpg"
+                        alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -226,7 +223,8 @@ export default function Example() {
                       <Image
                         width={500}
                         height={500}
-                        src='/tab4.jpg'                        alt=""
+                        src="/tab4.jpg"
+                        alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -235,7 +233,8 @@ export default function Example() {
                       <Image
                         width={500}
                         height={500}
-                        src='/glogo.svg'                        alt=""
+                        src="/glogo.svg"
+                        alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
