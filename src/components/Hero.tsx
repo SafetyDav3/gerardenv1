@@ -25,9 +25,9 @@ export default function Example() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image
-                width={32}
-                height={32}
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                width={64}
+                height={64}
+                src='glogo.svg'
                 alt=""
               />
             </a>
