@@ -12,36 +12,36 @@ datasource db {
 
 // Model for Fabrication Table and accessories
 model Product {
-  id String @id @default(cuid())
-  name String
+  id           String   @id @default(cuid())
+  name         String
   priceInCents Int
-  description String
-  imageURL String
-  available Boolean
-  inventory Int
-  soldOut Boolean
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  Order Order[]
+  description  String
+  imageURL     String
+  available    Boolean
+  inventory    Int
+  soldOut      Boolean
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  Order        Order[]
 }
 
 // Model for Users 
 model User {
-  id String @id @default(cuid())
-  email String @unique
+  id        String   @id @default(cuid())
+  email     String   @unique
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  orders Order[]
+  orders    Order[]
 }
 
 model Order {
-  id String @id @default(cuid())
+  id           String   @id @default(cuid())
   totalInCents Int
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
 
-  userId String
+  userId    String
   productId String
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
-  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
-  }
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product   Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+}
