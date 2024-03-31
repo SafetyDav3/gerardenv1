@@ -1,11 +1,11 @@
 
-# This is a website for Gerarden Fabrication Tables and Accessories.
+# This is a website for Gerarden Fabrication Tables and Accessories
 
-##### This website is a static website built with Next.js and hosted on Vercel.
+This website is a static website built with Next.js and hosted on Vercel.
 
 ---
 
-### Find Gerarden Fabrication at the following links:
+## Find Gerarden Fabrication at the following links:
 
 - [Gerarden Fabrication Tables and Accessories](https://gerardenfabricationtabels.vercel.app/)
 - [Gerarden Fabrication Furniture Website](https://gerardenfabrication.com/)
