@@ -37,3 +37,6 @@ next-env.d.ts
 
 # app
 .env
+/prisma/dev.db*
+next-env.d.ts
+*.tsbuildinfo
