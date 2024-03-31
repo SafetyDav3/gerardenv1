@@ -22,6 +22,7 @@ model Product {
   soldOut Boolean
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  Order Order[]
 }
 
 // Model for Users 
@@ -40,7 +41,7 @@ model Order {
   updatedAt DateTime @updatedAt
 
   userId String
-  productID String
-  user User @relation(fields: [userId], references: [id] onDelete: Cascade)
-  product Product @relation(fields: [productID], references: [id] onDelete: Cascade)
-}
+  productId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+  }
