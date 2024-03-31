@@ -33,3 +33,14 @@ model User {
   orders Order[]
 }
 
+model Order {
+  id String @id @default(cuid())
+  totalInCents Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  userId String
+  productID String
+  user User @relation(fields: [userId], references: [id] onDelete: Cascade)
+  product Product @relation(fields: [productID], references: [id] onDelete: Cascade)
+}
