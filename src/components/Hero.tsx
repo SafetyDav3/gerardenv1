@@ -205,7 +205,7 @@ export default function Example() {
                       <Image
                         width={500}
                         height={500}
-                        src="/tab3.jpg"
+                        src="/tab5.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
