@@ -12,40 +12,12 @@
   }
   ```
 */
-import Image from "next/image"
 
-const products = [
-    {
-      id: 1,
-      name: 'Nomad Pouch',
-      href: '#',
-      price: '$50',
-      availability: 'White and Black',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-07-product-01.jpg',
-      imageAlt: 'White fabric pouch with white zipper, black zipper pull, and black elastic loop.',
-    },
-    {
-      id: 2,
-      name: 'Zip Tote Basket',
-      href: '#',
-      price: '$140',
-      availability: 'Washed Black',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-07-product-02.jpg',
-      imageAlt: 'Front of tote bag with washed black canvas body, black straps, and tan leather handles and accents.',
-    },
-    {
-      id: 3,
-      name: 'Medium Stuff Satchel',
-      href: '#',
-      price: '$220',
-      availability: 'Blue',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-07-product-03.jpg',
-      imageAlt:
-        'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
-    },
-    // More products...
-  ]
-  
+
+import Image from "next/image"
+import { products } from "@/constants"
+
+
   export default function Example() {
     return (
       <div className="bg-white">
