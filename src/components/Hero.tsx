@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 import { navigation } from "@/constants";
-const vidReview ="https://www.youtube.com/watch?v=TliWp-YwlMc"
+const vidReview = "https://www.youtube.com/watch?v=TliWp-YwlMc";
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
