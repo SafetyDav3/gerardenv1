@@ -18,13 +18,15 @@ export default function Example() {
             <div className="flex h-16 justify-between">
               <div className="flex">
                 <div className="flex flex-shrink-0 items-center">
-                  <Image
-                    height={500}
-                    width={500}
-                    className="h-8 w-auto"
-                    src="glogo.svg"
-                    alt="Your Company"
-                  />
+                  <a href="/">
+                      <Image
+                        height={500}
+                        width={500}
+                        className="h-8 w-auto"
+                        src="glogo.svg"
+                        alt="Your Company"
+                      />
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
