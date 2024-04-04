@@ -40,7 +40,7 @@ export const products = [
     href: "#",
     price: "$9,000",
     availability: '1/4" HRPO Steel',
-    imageSrc: "/tab2.jpg",
+    imageSrc: "/tab3.jpg",
     imageAlt:
       "60 inch by 120 inch fabrication table made with 1/4 inch HRPO steel.",
   },

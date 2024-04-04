@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Gerarden Fabrication Tables",
   description: "Gerarden Fabrication Tables are the best in the business!",
-  icons: [{ rel: "icon", url: "/public/glogo.svg" }],
+  icons: [{ rel: "icon", url: "glogo.svg" }],
 };
 
 export default function RootLayout({
