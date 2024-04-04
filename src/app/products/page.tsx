@@ -29,7 +29,7 @@ export default function Example() {
                   width={500}
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center"
+                  className="h-72 w-full object-cover object-center"
                 />
               </div>
               <h3 className="mt-4 font-medium text-gray-900">{product.name}</h3>

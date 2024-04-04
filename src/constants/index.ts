@@ -30,7 +30,7 @@ export const products = [
     href: "#",
     price: "$6,000",
     availability: '1/4" HRPO Steel',
-    imageSrc: "/tab5.jpg",
+    imageSrc: "/tab2.jpg",
     imageAlt:
       "48 inch by 96 inch fabrication table made with 1/4 inch HRPO steel.",
   },
@@ -41,6 +41,36 @@ export const products = [
     price: "$9,000",
     availability: '1/4" HRPO Steel',
     imageSrc: "/tab3.jpg",
+    imageAlt:
+      "60 inch by 120 inch fabrication table made with 1/4 inch HRPO steel.",
+  },
+  {
+    id: 1,
+    name: "4x4 Fabrication Table",
+    href: "#",
+    price: "$5,000",
+    availability: '1/4" HRPO Steel',
+    imageSrc: "/tab4.jpg",
+    imageAlt:
+      "48 inch by 48 inch fabrication table made with 1/4 inch HRPO steel.",
+  },
+  {
+    id: 2,
+    name: "4x8 Fabrication Table",
+    href: "#",
+    price: "$6,000",
+    availability: '1/4" HRPO Steel',
+    imageSrc: "/tab5.jpg",
+    imageAlt:
+      "48 inch by 96 inch fabrication table made with 1/4 inch HRPO steel.",
+  },
+  {
+    id: 3,
+    name: "5x10 Fabrication Table",
+    href: "#",
+    price: "$9,000",
+    availability: '1/4" HRPO Steel',
+    imageSrc: "/tab1.jpg",
     imageAlt:
       "60 inch by 120 inch fabrication table made with 1/4 inch HRPO steel.",
   },
