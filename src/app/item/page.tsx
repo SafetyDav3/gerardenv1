@@ -37,6 +37,12 @@ const product = {
     { name: '20L', description: 'Enough room for a serious amount of snacks.' },
   ],
 }
+
+
+
+
+
+
 const reviews = { average: 4, totalCount: 1624 }
 
 function classNames(...classes: any) {
