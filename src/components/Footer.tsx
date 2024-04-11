@@ -1,4 +1,4 @@
-import { footerNavigation } from "./footerNavigation";
+import { footerNavigation } from "../components/footerNavigation";
 
 export default function Footer() {
   return (
