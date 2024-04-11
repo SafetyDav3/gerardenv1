@@ -19,7 +19,8 @@ export const products = [
     name: "4x4 Fabrication Table",
     href: "#",
     price: "$5,000",
-    description: "48 inch by 48 inch fabrication table made with 1/4 inch HRPO steel.",
+    description:
+      "48 inch by 48 inch fabrication table made with 1/4 inch HRPO steel.",
     availability: '1/4" HRPO Steel',
     imageSrc: "/tab1.jpg",
     imageAlt:
