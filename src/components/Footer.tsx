@@ -1,4 +1,4 @@
-const navigation = {
+const footerNavigation = {
   main: [
     { name: "About", href: "#" },
     { name: "Blog", href: "#" },
@@ -71,7 +71,7 @@ export default function Footer() {
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
         >
-          {navigation.main.map((item) => (
+          {footerNavigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               <a
                 href={item.href}
@@ -83,7 +83,7 @@ export default function Footer() {
           ))}
         </nav>
         <div className="mt-10 flex justify-center space-x-10">
-          {navigation.social.map((item) => (
+          {footerNavigation.social.map((item) => (
             <a
               key={item.name}
               href={item.href}

@@ -1,5 +1,10 @@
 "use client";
 
+import FacebookIcon from "../../../public/icons/facebook";
+import InstagramIcon from "../../../public/icons/instagram";
+import YoutubeIcon from "../../../public/icons/youtube";
+import EtsyIcon from "../../../public/icons/etsy";
+
 import { useState } from "react";
 import {
   CheckIcon,
@@ -231,6 +236,12 @@ export default function Example() {
                     Lifetime Guarantee
                   </span>
                 </a>
+                <div className="mt-6 flex items-center justify-center gap-x-2">
+                  <EtsyIcon />
+                  <FacebookIcon />
+                  <InstagramIcon />
+                  <YoutubeIcon />
+                </div>
               </div>
             </form>
           </section>
