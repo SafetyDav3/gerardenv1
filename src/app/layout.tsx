@@ -18,10 +18,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {children}
-        <Footer />
+      <body className={`${inter.className} bg-transparent`}> {/* add bg-transparent to remove the gap */}
+        <div className="min-h-screen flex flex-col">
+          {children}
+          <div className="flex-grow bg-slate-50" ></div> {/* div with flex-grow to fill the gap */}
+          <Footer />
+        </div>
       </body>
     </html>
   );
 }
+
+
