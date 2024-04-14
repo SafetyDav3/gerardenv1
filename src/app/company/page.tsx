@@ -24,7 +24,7 @@ export default function Company() {
               </div>
             </div>
             <div className="mt-6 flex justify-end">
-              <a
+              <Link
                 href={href}
                 className="text-sm text-indigo-600 hover:text-indigo-800"
                 rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function Company() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
