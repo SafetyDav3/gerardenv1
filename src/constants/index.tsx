@@ -76,5 +76,27 @@ export const products = [
     imageAlt:
       "60 inch by 120 inch fabrication table made with 1/4 inch HRPO steel.",
   },
-  // More products...
 ];
+
+export const companyMedia = [
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/GERARDENFABRICATIONANDDESIGN/",
+    icon: "FacebookIcon",
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/gerarden_fabrication/?hl=en",
+    icon: "InstagramIcon",
+  },
+  {
+    name: "ETSY",
+    href: "https://www.etsy.com/shop/GerardenFabrication",
+    icon: "EtsyIcon",
+  },
+  {
+    name: "YouTube",
+    href: "https://www.youtube.com/watch?v=TliWp-YwlMc",
+    icon: "YouTube",
+  }
+]
