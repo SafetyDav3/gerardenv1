@@ -17,7 +17,7 @@ export const products = [
   {
     id: 1,
     name: "4x4 Fabrication Table",
-    href: "#",
+    href: "/item",
     price: "$5,000",
     description:
       "48 inch by 48 inch fabrication table made with 1/4 inch HRPO steel.",
@@ -29,7 +29,7 @@ export const products = [
   {
     id: 2,
     name: "4x8 Fabrication Table",
-    href: "#",
+    href: "/item",
     price: "$6,000",
     availability: '1/4" HRPO Steel',
     imageSrc: "/tab2.jpg",
@@ -39,7 +39,7 @@ export const products = [
   {
     id: 3,
     name: "5x10 Fabrication Table",
-    href: "#",
+    href: "/item",
     price: "$9,000",
     availability: '1/4" HRPO Steel',
     imageSrc: "/tab3.jpg",
@@ -49,7 +49,7 @@ export const products = [
   {
     id: 1,
     name: "4x4 Fabrication Table",
-    href: "#",
+    href: "/item",
     price: "$5,000",
     availability: '1/4" HRPO Steel',
     imageSrc: "/tab4.jpg",
@@ -59,7 +59,7 @@ export const products = [
   {
     id: 2,
     name: "4x8 Fabrication Table",
-    href: "#",
+    href: "/item",
     price: "$6,000",
     availability: '1/4" HRPO Steel',
     imageSrc: "/tab5.jpg",
@@ -69,7 +69,7 @@ export const products = [
   {
     id: 3,
     name: "5x10 Fabrication Table",
-    href: "#",
+    href: "/item",
     price: "$9,000",
     availability: '1/4" HRPO Steel',
     imageSrc: "/tab1.jpg",
