@@ -2,12 +2,12 @@ import FacebookIcon from "../../public/icons/facebook";
 
 export const footerNavigation = {
   main: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
+    { name: "About", href: "/company" },
+    { name: "Blog", href: "/company" },
+    { name: "Jobs", href: "/company" },
+    { name: "Press", href: "https://www.youtube.com/watch?v=TliWp-YwlMc" },
     { name: "Accessibility", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: "Partners", href: "/company" },
   ],
   social: [
     {
