@@ -1,4 +1,3 @@
-
 export const navigation = [
   { name: "Fabrication Tables", href: "/products", current: null },
   { name: "Accessories", href: "accessories", current: null },
@@ -91,20 +90,17 @@ export const companyMedia = [
     href: "https://www.instagram.com/gerarden_fabrication/?hl=en",
     icon: "InstagramIcon",
     description: "Contact and check us out on Facebook.",
-
   },
   {
     name: "ETSY",
     href: "https://www.etsy.com/shop/GerardenFabrication",
     icon: "EtsyIcon",
     description: "Contact and check us out on Facebook.",
-
   },
   {
     name: "YouTube",
     href: "https://www.youtube.com/watch?v=TliWp-YwlMc",
     icon: "YouTube",
     description: "Contact and check us out on Facebook.",
-
   },
 ];

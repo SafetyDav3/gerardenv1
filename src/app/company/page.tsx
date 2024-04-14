@@ -1,7 +1,6 @@
 // Gerarden company information, contact information, and social media links.
 
 import Link from "next/link";
-import Image from "next/image";
 import { companyMedia } from "@/constants";
 
 export default function Company() {
