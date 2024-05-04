@@ -1,4 +1,3 @@
-
 # This is a website for Gerarden Fabrication Tables and Accessories
 
 This website is a static website built with Next.js and hosted on Vercel.
@@ -20,3 +19,7 @@ This website is a static website built with Next.js and hosted on Vercel.
 - [Vercel](https://vercel.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Prisma](https://www.prisma.io/)
+
+## Creating Etsy listings to draw from
+
+- TODO: Create table for posting progress
