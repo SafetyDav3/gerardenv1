@@ -24,21 +24,16 @@ model Product {
   Order        Order[]
 }
 
+// TODO: Add model for Breadcrumbs, and Sizes
 model Item {
-  name String
-  href String 
-  price Int
+  name        String
+  href        String
+  price       Int
   description String
-  imageSrc String
-  imageAlt String
-  breadcrumbs: [
-    { id: 1, name: "fabrication", href: "#" },
-    { id: 1, name: "table", href: "#" },
-  ],
-  sizes: [
-    { name: "Pre-Fabricated", description: "We weld the table for you."},
-    { name: "Kit", description: "You recive a kit and and assembly instuctions"},
-  ]
+  imageSrc    String
+  imageAlt    String
+  breadcrumbs Breadcrumb[]
+  sizes       Size[]
 }
 
 // Model for Users 
