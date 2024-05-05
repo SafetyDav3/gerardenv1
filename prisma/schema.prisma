@@ -24,6 +24,23 @@ model Product {
   Order        Order[]
 }
 
+model Item {
+  name String
+  href String 
+  price Int
+  description String
+  imageSrc String
+  imageAlt String
+  breadcrumbs: [
+    { id: 1, name: "fabrication", href: "#" },
+    { id: 1, name: "table", href: "#" },
+  ],
+  sizes: [
+    { name: "Pre-Fabricated", description: "We weld the table for you."},
+    { name: "Kit", description: "You recive a kit and and assembly instuctions"},
+  ]
+}
+
 // Model for Users 
 model User {
   id        String   @id @default(cuid())
